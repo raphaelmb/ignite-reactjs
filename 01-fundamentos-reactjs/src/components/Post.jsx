@@ -83,7 +83,7 @@ export function Post({ author, publishedAt, content }) {
         <strong>Deixa seu feedback</strong>
         <textarea
           name="comment"
-          placeholder="Deixa um comentário"
+          placeholder="Deixe um comentário"
           value={newCommentText}
           onChange={handleNewCommentChange}
           onInvalid={handleNewCommentInvalid}
